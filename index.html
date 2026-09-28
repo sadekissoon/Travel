@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Digital Explorer's Travel Map</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&amp;family=Playfair+Display:wght@700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header: title and mission intro -->
+    <header class="site-header">
+      <p class="eyebrow">Foundations HTML + CSS Project</p>
+      <h1>The Digital Explorer's Travel Map</h1>
+      <p class="intro">
+        Pack your digital bags and hover across the map to discover five dream
+        destinations, each with a photo, a fun fact, and a little CSS magic.
+      </p>
+    </header>
+
+    <!-- Main map layout -->
+    <main class="map-shell" aria-label="Dream destination travel map">
+      <section class="map-panel">
+        <div class="map-grid" aria-hidden="true"></div>
+
+        <!-- Destination card: Kyoto -->
+        <article class="destination-card kyoto">
+          <span class="pin"><span>1</span></span>
+          <img
+            src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&amp;fit=crop&amp;w=900&amp;q=80"
+            alt="Traditional street and pagoda in Kyoto, Japan"
+          />
+          <div class="card-content">
+            <p class="location">Kyoto, Japan</p>
+            <h2>Lanterns &amp; Temple Trails</h2>
+            <p>
+              Did you know Kyoto has more than 1,600 Buddhist temples and over
+              400 Shinto shrines?
+            </p>
+          </div>
+        </article>
+
+        <!-- Destination card: Santorini -->
+        <article class="destination-card santorini">
+          <span class="pin"><span>2</span></span>
+          <img
+            src="https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&amp;fit=crop&amp;w=900&amp;q=80"
+            alt="White buildings and blue domes in Santorini, Greece"
+          />
+          <div class="card-content">
+            <p class="location">Santorini, Greece</p>
+            <h2>Cliffs Above the Aegean</h2>
+            <p>
+              Santorini's famous crescent shape was formed by one of history's
+              largest volcanic eruptions.
+            </p>
+          </div>
+        </article>
+
+        <!-- Destination card: Banff -->
+        <article class="destination-card banff">
+          <span class="pin"><span>3</span></span>
+          <img
+            src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&amp;fit=crop&amp;w=900&amp;q=80"
+            alt="Turquoise lake surrounded by mountains in Banff, Canada"
+          />
+          <div class="card-content">
+            <p class="location">Banff, Canada</p>
+            <h2>Glacier Blue Adventure</h2>
+            <p>
+              The lake water in Banff looks bright blue because rock flour from
+              glaciers reflects sunlight.
+            </p>
+          </div>
+        </article>
+
+        <!-- Destination card: Marrakech -->
+        <article class="destination-card marrakech">
+          <span class="pin"><span>4</span></span>
+          <img
+            src="https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&amp;fit=crop&amp;w=900&amp;q=80"
+            alt="Colorful Moroccan tilework and architecture in Marrakech"
+          />
+          <div class="card-content">
+            <p class="location">Marrakech, Morocco</p>
+            <h2>Markets of Color</h2>
+            <p>
+              Marrakech is nicknamed the Red City because many of its buildings
+              glow with warm red clay walls.
+            </p>
+          </div>
+        </article>
+
+        <!-- Destination card: Bora Bora -->
+        <article class="destination-card bora">
+          <span class="pin"><span>5</span></span>
+          <img
+            src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&amp;fit=crop&amp;w=900&amp;q=80"
+            alt="Clear tropical ocean water and soft sand beach"
+          />
+          <div class="card-content">
+            <p class="location">Bora Bora, French Polynesia</p>
+            <h2>Lagoon Daydream</h2>
+            <p>
+              Bora Bora is surrounded by a coral reef that creates its calm,
+              glowing turquoise lagoon.
+            </p>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <!-- Footer: simple project note -->
+    <footer class="site-footer">
+      <p>Built with HTML5, CSS, hover effects, images, and a sense of adventure.</p>
+    </footer>
+  </body>
+</html>
